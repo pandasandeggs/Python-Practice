@@ -17,3 +17,11 @@
     print point_string
 
 # STRINGS & CONSOLE OUTPUT
+
+    my_string = "Hello, world!"
+
+    print len(my_string)
+
+    print my_string.upper()
+
+# DATE AND TIME
