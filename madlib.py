@@ -18,7 +18,7 @@ def first_madlib():
         adjective = raw_input("Choose an adjective: ")
         thing = raw_input("Choose an object: ")
     #prints the madlib
-        print "{} was really hungry and decided to go to {} to grab some {}. On the way there, {} ran into {} and they decided to eat together. {} said they really wanted to eat {}. {} agreed that sounded great and offered to share the {} if {} shared the {}. They had a great lunch together and then went to {} because it had their favorite {} {}. The end.".format(name, place, food, pronoun, friend, friend, second_food, name, pronoun, food, friend, second_food, second_place, adjective, thing)
+        print "{} was really hungry and decided to go to {} to grab some {}. On the way there, {} ran into {} and they decided to eat together. {} said they really wanted to eat {}. {} agreed that sounded great and offered to share the {} if {} shared the {}. They had a great lunch together and then went to {} because it had their favorite {} {}. The end.".format(name, place, food, pronoun, friend, friend, second_food, name, food, pronoun, second_food, second_place, adjective, thing)
 
 #option to continue or exist
 def user_option():
