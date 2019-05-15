@@ -17,7 +17,7 @@ def get_request(url):
 
 # Returns true is response is HTML
 def good_response(resp): 
-content_type = resp.headers['Content-Type'].lower()
+	content_type = resp.headers['Content-Type'].lower()
 	return (resp.status_code == 200
 			and content-type is not None
 			and content-type.find('html')>-1)
