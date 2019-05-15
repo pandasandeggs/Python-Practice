@@ -54,3 +54,28 @@
 
     # This should print an "F"
     print grade_converter(61)
+
+# FUNCTIONS
+    
+    # Function Review
+    def shut_down(s):
+      if s == "yes":
+        return "Shutting down"
+      elif s == "no":
+        return "Shutdown aborted"
+      else:
+        return "Sorry"
+
+    # Modules Review
+    import math
+    print math.sqrt(13689)
+
+    from math import sqrt
+    print sqrt(13689)
+
+    # Built-In Functions Review 
+    def distance_from_zero(num):
+      if type(num) == int or type(num) == float:
+        return abs(num)
+      else:
+        return "Nope"
